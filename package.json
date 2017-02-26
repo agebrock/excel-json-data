@@ -1,0 +1,18 @@
+{
+  "name": "excel-json-data",
+  "version": "1.0.0",
+  "description": "cmd tool to convert excel workbooks to json",
+  "main": "index.js",
+  "bin":"index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["excel", "json", "cmd"],
+  "author": "christoph.hagenbrock@googlemail.com",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "xlsx": "^0.8.5",
+    "yargs": "^6.6.0"
+  }
+}
